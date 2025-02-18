@@ -1,0 +1,233 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(135deg, #054881, #032e53);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header h2 {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+header p {
+    max-width: 800px;
+    margin: 1rem auto 0;
+}
+
+/* Formulario */
+#formulario {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 600px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+#formulario h3 {
+    margin-top: 0;
+    font-size: 2rem;
+    color: #032e53;
+}
+
+#formulario label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+    font-weight: bold;
+}
+
+#formulario input[type="text"],
+#formulario input[type="date"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #032e53;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #032e53;
+}
+
+/* Navegación */
+nav {
+    text-align: center;
+    margin: 2rem 0;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #032e53;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    background-color: #032e53;
+    color: #ffffff;
+}
+
+
+/* Zodiaco */
+article {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 900px;
+    background: #032e53;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#zodiaco {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 400px;
+    background: #d7eafa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+#zodiaco:last-child {
+    border-bottom: none;
+}
+
+#zodiaco h4 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #032e53;
+}
+
+#zodiaco p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-top: 1rem;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Lista Continentes */
+.continente {
+    background: #cfe7fa;
+    padding: 1rem;
+    margin: 2rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.continente h2 {
+    color: #032e53;
+    margin: 0;
+}
+
+.pais {
+    display: inline-block;
+    width: 230px;
+    background: #ffffff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.pais img {
+    width: 70%;
+    border-radius: 8px;
+    display: block; /* Hace que la imagen sea un bloque, permitiendo que se centre */
+    margin: 0 auto; /* Asegura que la imagen se centre si su ancho es menor al 100% */
+}
+
+main button {
+    display: block;
+    margin: 2rem auto;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #032e53;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Tabla Continentes */
+
+/* Efecto de fila par/impar */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Cambiar el color de fondo de las filas impares */
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+
+/* Efecto hover */
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Hacer que la tabla sea responsiva */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead tr th{
+    background-color: #16446c;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+
+
+
+
